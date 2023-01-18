@@ -8,11 +8,11 @@
 		<version>2.7.7</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.ghassen.student.dal</groupId>
+	<groupId>com.ghassen.rent.car</groupId>
 	<artifactId>carrenting</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>studentdal</name>
-	<description>Student DAL</description>
+	<name>CarRenting</name>
+	<description>Renting Car Application</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
@@ -45,10 +45,6 @@
 			<version>1.18.24</version>
 			<scope>provided</scope>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-security</artifactId>
-		</dependency>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-devtools</artifactId>
@@ -58,11 +54,6 @@
             <artifactId>jackson-annotations</artifactId>
             <version>2.14.1</version>
         </dependency>
-		<dependency>
-			<groupId>com.auth0</groupId>
-			<artifactId>java-jwt</artifactId>
-			<version>4.2.2</version>
-		</dependency>
 
 	</dependencies>
 
